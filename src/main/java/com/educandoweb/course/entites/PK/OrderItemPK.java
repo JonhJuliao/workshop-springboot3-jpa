@@ -1,4 +1,4 @@
-package com.educandoweb.course.entites.PK;
+package com.educandoweb.course.entites.pk;
 
 import java.io.Serializable;
 import java.util.Objects;
