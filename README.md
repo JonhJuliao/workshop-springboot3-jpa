@@ -39,6 +39,8 @@ git clone https://github.com/devsuperior/sds1-wmazoni
 ## Se preferir configure no seu Banco de Dados
 - O projeto está configurado para usar o banco de dados em memória H2. O H2 é um banco de dados relacional leve, rápido e de código aberto,
 que roda em memória, ou seja, os dados são armazenados temporariamente enquanto a aplicação está em execução e são perdidos quando a aplicação é parada.
+Esse banco de dados é comumente utilizado na fase de testes e posteriormente a configuração é trocada para utilizar um outro banco de dados quando entrar
+na fase de implementação.
 As configurações estão no arquivo application.properties e estão da seguinte forma:
 ```bash
 # Configurações do datasource
